@@ -711,7 +711,7 @@
 <img alt="Softami Rent A Car Karşılama Görseli" src="images/hero2.jpg"/>
 <div class="hero-actions">
 <a class="btn-primary" href="#fleet">Araç Filomuza Göz At</a>
-<a class="btn-outline" href="tel:+905513464075">Hemen Ara</a>
+<a class="btn-outline" href="tel:+905513650441">Hemen Ara</a>
 </div>
 <div class="hero-mini-marquee">
 <span>Online rezervasyona özel %35 indirim • Ücretsiz vale hizmeti • 81 ilde mobil teslim • 7/24 Destek</span>
@@ -942,8 +942,8 @@
         kanallarından bize ulaştığınızda, istediğiniz araç ve tarih aralığı için hızlıca dönüş sağlanır.
       </p>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;align-items:center">
-<a class="btn call-btn" href="tel:+905513464075">Hemen Ara: 905513464075</a>
-<a class="btn whatsapp-reserve" href="https://wa.me/905513464075" rel="noopener" target="_blank">WhatsApp: 905513464075</a>
+<a class="btn call-btn" href="tel:+905513650441">Hemen Ara: 905513650441</a>
+<a class="btn whatsapp-reserve" href="https://wa.me/905513650441" rel="noopener" target="_blank">WhatsApp: 905513650441</a>
 </div>
 </div>
 </section>
@@ -957,8 +957,8 @@
           Rezervasyon ve bilgi talepleriniz için dilediğiniz zaman bize ulaşabilirsiniz.
         </p>
 <p class="service-desc">
-          Telefon: <strong>905513464075</strong><br/>
-          WhatsApp: <strong>905513464075</strong>
+          Telefon: <strong>905513650441</strong><br/>
+          WhatsApp: <strong>905513650441</strong>
 </p>
 </div>
 <div class="box">
@@ -994,7 +994,7 @@
 </div>
 </footer>
 <!-- SABİT WHATSAPP -->
-<a class="wh" href="tel:+905513464075">
+<a class="wh" href="tel:+905513650441">
     Hemen Ara
   </a>
 <!-- Araç görsel & detay modal -->
@@ -1109,7 +1109,7 @@
         </div>
 
         <div class="btn-row">
-          <a class="btn call-btn" href="tel:+905513464075">Hemen Ara</a>
+          <a class="btn call-btn" href="tel:+905513650441">Hemen Ara</a>
           <a class="btn whatsapp-reserve" href="#" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
@@ -1130,7 +1130,7 @@
         const e = endInput.value;
         const msg = `Merhaba, ${v.name} aracı için ${city} şehrinde ${s} - ${e} (${days} gün) rezervasyon yapmak istiyorum. Toplam: ${days} gün x ${formatTL(v.price)} + ${formatTL(DEPOSIT)} (depozito) = ${formatTL(grand)}.`;
         if(waBtn){
-          waBtn.href = 'https://wa.me/905513464075?text=' + encodeURIComponent(msg);
+          waBtn.href = 'https://wa.me/905513650441?text=' + encodeURIComponent(msg);
         }
       } else {
         totalEl.textContent = 'Toplam: -';
@@ -1170,7 +1170,7 @@
     document.getElementById('modalEnd').value = '';
     document.getElementById('modalTotal').textContent = 'Toplam: -';
     document.getElementById('modalWhats').href =
-      `https://wa.me/905513464075?text=${encodeURIComponent('Merhaba, ' + currentVehicle.name + ' hakkında bilgi almak istiyorum.')}`;
+      `https://wa.me/905513650441?text=${encodeURIComponent('Merhaba, ' + currentVehicle.name + ' hakkında bilgi almak istiyorum.')}`;
     modal.style.display = 'flex';
     modal.setAttribute('aria-hidden','false');
   }
@@ -1211,10 +1211,10 @@
       const total = d * currentVehicle.price;
       totalEl.textContent = `Toplam (${d} gün): ${formatTL(total)}`;
       const text = `Merhaba, ${currentVehicle.name} için ${s} - ${e} (${d} gün) fiyat bilgisini almak istiyorum. Toplam: ${formatTL(total)}`;
-      wa.href = 'https://wa.me/905513464075?text=' + encodeURIComponent(text);
+      wa.href = 'https://wa.me/905513650441?text=' + encodeURIComponent(text);
     } else {
       totalEl.textContent = 'Toplam: -';
-      wa.href = `https://wa.me/905513464075?text=${encodeURIComponent('Merhaba, ' + currentVehicle.name + ' hakkında bilgi almak istiyorum.')}`;
+      wa.href = `https://wa.me/905513650441?text=${encodeURIComponent('Merhaba, ' + currentVehicle.name + ' hakkında bilgi almak istiyorum.')}`;
     }
   }
 
@@ -1307,7 +1307,7 @@
           const msg =
             `Merhaba, ${v.name} aracı için ${city} şehrinde ${start.value} - ${end.value} (${days} gün) rezervasyon yapmak istiyorum. ` +
             `Toplam: ${days} gün x ${formatTL(v.price)} + ${formatTL(DEPOSIT)} (depozito) = ${formatTL(grand)}.`;
-          waBtn.href = 'https://wa.me/905513464075?text=' + encodeURIComponent(msg);
+          waBtn.href = 'https://wa.me/905513650441?text=' + encodeURIComponent(msg);
         } else {
           totalEl.textContent = 'Toplam: -';
           waBtn.href = '#';
@@ -1352,7 +1352,7 @@
         `Toplam: ${days} gün x ${price.toLocaleString('tr-TR')} ₺ + ${DEPOSIT.toLocaleString('tr-TR')} ₺ depozito = ${grand.toLocaleString('tr-TR')} ₺`;
       const msg =
         `Merhaba, ${car} aracı için ${city} şehrinde ${days} gün kiralamak istiyorum. Toplam: ${grand.toLocaleString('tr-TR')} ₺ (depozito dahil).`;
-      fastWa.href = 'https://wa.me/905513464075?text=' + encodeURIComponent(msg);
+      fastWa.href = 'https://wa.me/905513650441?text=' + encodeURIComponent(msg);
     }
     [fastCar, fastCity, fastDays].forEach(el=>{
       el && el.addEventListener('input', fastUpdate);
